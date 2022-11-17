@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> // biblioteca matemática
 
 int main() {
 	float x1, x2, y1, y2, distancia; // declaração de variáveis
