@@ -10,11 +10,11 @@ int main() {
 	int n100 = floor(valor/100);
 	resto = fmod(valor, 100);
 	
-	int n50 = floor(resto/50);
+	int n50 = floor(resto/50); // arredonda o valor ao primeiro inteiro mais próximo ao chão
 	resto = fmod(resto, 50);
 	
 	int n20 = floor(resto/20);
-	resto = fmod(resto, 20);
+	resto = fmod(resto, 20); // restp de divisão com valores de ponto flutuante => fmod( , )
 	
 	int n10 = floor(resto/10);
 	resto = fmod(resto, 10);
