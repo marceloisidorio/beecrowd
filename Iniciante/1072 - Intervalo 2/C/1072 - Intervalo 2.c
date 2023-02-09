@@ -23,6 +23,8 @@ int main() {
 		
 		// saída
 		printf("%d in\n%d out\n", in, out);
-	}	
+		
+	}
+
 	return 0;
 }
