@@ -27,6 +27,8 @@ int main() { // variáveis
 	J = B*B; // atribuição dos quadrados
 	K = C*C;
 	
+	system("cls"); // limpa a tela
+	
 	// condicional + saída
 	if(A >= B+C) {
 		printf("NAO FORMA TRIANGULO\n");
