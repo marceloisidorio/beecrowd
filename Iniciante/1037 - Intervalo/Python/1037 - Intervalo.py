@@ -1,5 +1,7 @@
+# entrada
 N = float(input())
 
+# saída
 if N >= 0 and N <= 25:
     print('Intervalo [0,25]')
 
