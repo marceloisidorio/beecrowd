@@ -1,5 +1,3 @@
-import math
-
 # recebe os valores na mesma linha
 A, B, C = input().split(' ')
 
